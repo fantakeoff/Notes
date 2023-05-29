@@ -7,7 +7,7 @@ $$E=mc^2$$
 
 ***
 
-![](https://raw.githubusercontent.com/fantakeoff/pictures/master/imgs/202305291253041.png)
+![](https://pictures.darkmoon.top/imgs/202305291253041.png)
 
 ***
 
