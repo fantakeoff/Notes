@@ -49,6 +49,3 @@ public class ThreadSample1 {
 
 ```
 ---
-
-
-___
