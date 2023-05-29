@@ -4,4 +4,3 @@
 
 * .NET Core
   * [简介](md/.NETCORE/induce.md)
-
