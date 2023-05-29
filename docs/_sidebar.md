@@ -3,4 +3,5 @@
   * [中文文档](https://www.wenjiangs.com/doc/docsifyjs)
 
 * .NET Core
-  * [01_blink](md/01_blink.md)
+  * [简介](md/.NETCORE/induce.md)
+
