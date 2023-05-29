@@ -15,4 +15,4 @@
 [GitHub](https://github.com/docsifyjs/docsify/)
 [Get Started](#docsify)
 
-![](assets/bg.png)
+![](https://raw.githubusercontent.com/fantakeoff/pictures/master/imgs/202305291118949.jpg)
