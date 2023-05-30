@@ -5,3 +5,5 @@
 
 * .NET Core
   * [简介](md/.NETCORE/induce.md ':encrypted')
+  * 测试
+      * [Test](md/.NETCORE/测试/Test.md)
