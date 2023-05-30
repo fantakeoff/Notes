@@ -13,6 +13,6 @@
 - 用于做笔记
 
 [GitHub](https://github.com/docsifyjs/docsify/)
-[Get Started](#docsify)
+[Get Started](https://notes.darkmoon.top/#/md/)
 
 ![](https://pictures.darkmoon.top/imgs/202305291118949.jpg)
