@@ -7,3 +7,6 @@
   * [简介](md/.NETCORE/induce.md ':encrypted')
   * 测试
       * [介绍](md/.NETCORE/测试/介绍.md)
+
+* Git
+  * [设置代理](md/git/proxy.md)
