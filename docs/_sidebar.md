@@ -10,3 +10,4 @@
 
 * Git
   * [设置代理](md/git/proxy.md)
+  * [基础操作](md/git/Foundation.md)
