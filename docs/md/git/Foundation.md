@@ -74,7 +74,7 @@ git rebase -i commit_id
     git push
 ```
 
-####git revert
+#### git revert
 git revert:放弃某次的提交，之前的提交仍会保留在git log中，而此次撤销会作为一次新的提交，-m 指定分支节点
 ```bash
 #撤销提交
