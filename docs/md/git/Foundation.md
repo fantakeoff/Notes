@@ -32,3 +32,67 @@ git checkout --<file>
 
 ```
 ### 撤销commit
+```bash
+#回滚到某次提交
+git reset
+#此次提交之后的修改会被退回暂存区
+git reset --soft
+#此次提交之后的修改不做任何保留
+git reset --hard
+```
+#### 回滚代码
+```bash
+git reset --hard commit_id
+#强制推送到远端
+git push origin HEAD --force
+```
+#### 误删恢复
+```bash
+#删除中间某次提交最好不要用git reset回退远程库，之后的人使用git pull也会把自己的本地仓库回退到之前的版本
+git relog
+git reset --hard hash
+```
+
+###git rebase
+  当两个分支不在同一条线上时，需要执行merge 操作时使用该命令
+```bash
+#中间某次commit需要删除，可以通过git rebase命令实现，方法如下
+git rebase -i commit_id
+进入Vim,将要删除的commit之前的'pick'换成'drop'
+```
+#### 出现冲突解决
+```bash
+    git diff
+
+    ***
+    //解决冲突
+    git add <file>或git add -A
+    git rebase --continue
+    ***
+
+    //如没有applying重复***之间的操作
+    git push
+```
+
+####git revert
+git revert:放弃某次的提交，之前的提交仍会保留在git log中，而此次撤销会作为一次新的提交，-m 指定分支节点
+```bash
+#撤销提交
+git revert commit_id
+```
+```bash
+#撤销merge节点的提交
+#第一个提交点
+git revert commit_id -m 1
+
+***
+手动解决冲突
+git add -A
+git commit -m ""
+***
+
+git revert commit_id -m 2 #第二个提交点
+
+//重复2,3,4
+git push
+```
