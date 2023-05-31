@@ -6,7 +6,7 @@
 
 ![logo](https://docsify.js.org/_media/icon.svg)
 
-# docsify <small>3.5</small>
+# docsify <small>4</small>
 
 > 基于docsify创建的文档网站
 
