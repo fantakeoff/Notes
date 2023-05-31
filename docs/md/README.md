@@ -1,3 +1,3 @@
 # 欢迎光临
 
-![](https://raw.githubusercontent.com/fantakeoff/pictures/master/imgs/202305290905447.png)
+![](https://pictures.darkmoon.top/imgs/202305311032026.jpg)
