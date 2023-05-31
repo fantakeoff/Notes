@@ -53,7 +53,7 @@ git relog
 git reset --hard hash
 ```
 
-###git rebase
+### git rebase
   当两个分支不在同一条线上时，需要执行merge 操作时使用该命令
 ```bash
 #中间某次commit需要删除，可以通过git rebase命令实现，方法如下
