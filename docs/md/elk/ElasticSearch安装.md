@@ -1,0 +1,25 @@
+## 安装
+1.环境
+![](https://pictures.darkmoon.top/imgs/chrome_RIQr2Dirrc.png)
+***
+2.版本
+![](https://pictures.darkmoon.top/imgs/chrome_t4mTo0UIzA.png)
+***
+3.单服务启动
+![](https://pictures.darkmoon.top/imgs/chrome_HfwUXvjngD.png)
+***
+4.elastic环境
+![](https://pictures.darkmoon.top/imgs/chrome_MRXiwCrdjl.png)
+****
+5.kiabana
+![](https://pictures.darkmoon.top/imgs/chrome_XpwfaMHfVu.png)
+***
+6.关闭
+![](https://pictures.darkmoon.top/imgs/chrome_uhsDbGII91.png)
+***
+7.问题
+![](https://pictures.darkmoon.top/imgs/202306012042993.png)
+***
+8.Head插件的安装
+![](https://pictures.darkmoon.top/imgs/202306012044568.png)
+***
