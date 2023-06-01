@@ -22,4 +22,6 @@
 ***
 8.Head插件的安装
 ![](https://pictures.darkmoon.top/imgs/202306012044568.png)
+![](https://pictures.darkmoon.top/imgs/202306012049802.png)
+![](https://pictures.darkmoon.top/imgs/202306012050828.png)
 ***
