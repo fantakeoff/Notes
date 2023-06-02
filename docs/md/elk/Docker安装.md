@@ -1,5 +1,7 @@
 ##Windows下elk安装
+
 [转载自CSDN 作者:吴明_yst](https://blog.csdn.net/qq_50661854/article/details/125725385)
+
 ### elastic配置文件
 ```bash
 D:\elk\es\data
