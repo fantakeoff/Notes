@@ -12,6 +12,8 @@ Changed password for user [remote_monitoring_user]
 Changed password for user [elastic]
 ---
 ### 配置的文件参考Docker安装中的配置文件
+#### Elastic_Head连接 
+http://localhost:9100/?auth_user=elastic&auth_password=******
 ---
 #### 出现证书错误使用
 ##### 估计是版本问题
