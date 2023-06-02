@@ -2,6 +2,8 @@
 
 [转载自CSDN 作者:吴明_yst](https://blog.csdn.net/qq_50661854/article/details/125725385)
 
+[中文文档](https://www.elastic.co/guide/cn/index.html)
+
 ### elastic配置文件
 ```bash
 D:\elk\es\data
