@@ -1,21 +1,32 @@
-##Windows下elk安装
+## Windows下elk安装
+
 [转载自CSDN 作者:吴明_yst](https://blog.csdn.net/qq_50661854/article/details/125725385)
+
+[中文文档](https://www.elastic.co/guide/cn/index.html)
+
 ### elastic配置文件
 ```bash
 D:\elk\es\data
 D:\elk\es\logs
 
 D:\elk\es\config\elasticsearch.yml
+
 ##文件内容
 cluster.name: "my-es"
 network.host: 0.0.0.0
 http.port: 9200
-
-# 加入跨域配置
+#配置开启跨域
 http.cors.enabled: true
+#配置允许任何域名访问
 http.cors.allow-origin: "*"
-
-
+#设置密码后的访问配置
+http.cors.allow-headers: Authorization,X-Requested-With,Content-Length,Content-Type
+xpack.security.enabled: true
+xpack.security.transport.ssl.enabled: true
+xpack.security.transport.ssl.verification_mode: certificate
+xpack.security.transport.ssl.key: certs/za-test.key
+xpack.security.transport.ssl.certificate: certs/za-test.crt
+xpack.security.transport.ssl.certificate_authorities: certs/ca.crt
 ```
 
 ###  elastic
@@ -35,6 +46,8 @@ server.host: "0"
 elasticsearch.hosts: ["http://172.17.0.3:9200"]
 xpack.monitoring.ui.container.elasticsearch.enabled: true
 i18n.locale: "zh-CN" #部分中文汉化
+elasticsearch.username: "kibana"
+elasticsearch.password: "******"
 ```
 
 ### 执行命令创建kibana容器
@@ -55,28 +68,30 @@ D:/elk/logstash/conf.d/test.conf
 #文件内容
 # 收录springboot项目日志配置 test.conf
 input {
-	tcp {
-		port => 5044
-	}
+    tcp {
+        port => 5044
+    }
 }
 
 output {
-	elasticsearch {
-		hosts => ["172.17.0.3:9200"]
-	}
-	stdout {}
+    elasticsearch {
+        hosts => ["172.17.0.2:9200"]
+        user => "elastic"
+        password => "*****"
+    }
+    stdout {}
 }
 # 以下为filebeat的配置
 input {
-	beats {
-		port => 5044
-		codec => "json"
-	}
+    beats {
+        port => 5044
+        codec => "json"
+    }
 }
 # 保存日志到es中
 output {
-	elasticsearch { hosts => ["172.17.0.3:9200"] }
-	stdout { codec => rubydebug }
+    elasticsearch { hosts => ["172.17.0.2:9200"] }
+    stdout { codec => rubydebug }
 }
 ```
 

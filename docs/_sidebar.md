@@ -7,8 +7,17 @@
   * [简介](md/.NETCORE/induce.md ':encrypted')
   * 测试
       * [介绍](md/.NETCORE/测试/介绍.md)
+  
+* 泛微OA对接K3
+  * [采购订单](md/%E6%B3%9B%E5%BE%AEOA%E8%A1%A8%E5%8D%95/%E9%87%87%E8%B4%AD%E8%AE%A2%E5%8D%95.md)
 
 * Git
   * [设置代理](md/git/proxy.md)
   * [基础操作](md/git/Foundation.md)
-  * [qwe](md/elk/%E9%9B%86%E7%BE%A4%E7%9A%84%E5%81%A5%E5%BA%B7%E6%A3%80%E6%9F%A5.md)
+
+* elk
+  * [Docker安装](md\elk\Docker安装.md)
+  * [elk加密](md\elk\elk%E5%8A%A0%E5%AF%86.md)
+
+* OpenWrt
+  * [Docker安装](md\OpenWrt\Docker无网络.md)
