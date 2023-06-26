@@ -10,7 +10,7 @@
 
 > 基于docsify创建的文档网站
 
-- 用于做笔记
+- 月亮很亮，亮也没用，没用也亮。
 
 [GitHub](https://github.com/docsifyjs/docsify/)
 [笔记](https://notes.darkmoon.top/#/md/)
