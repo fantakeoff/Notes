@@ -9,8 +9,8 @@
       * [介绍](md/.NETCORE/测试/介绍.md)
   
 * 泛微OA
-  * [采购订单](md/%E6%B3%9B%E5%BE%AEOA%E8%A1%A8%E5%8D%95/%E9%87%87%E8%B4%AD%E8%AE%A2%E5%8D%95.md)
-  * [外挂API操作](md\泛微OA表单\外挂API操作详解.md)
+  * [采购订单](md/%E6%B3%9B%E5%BE%AEOA%E8%A1%A8%E5%8D%95/%E9%87%87%E8%B4%AD%E8%AE%A2%E5%8D%95.md ':encrypted')
+  * [外挂API操作](md\泛微OA表单\外挂API操作详解.md ':encrypted')
 
 * Git
   * [设置代理](md/git/proxy.md)
